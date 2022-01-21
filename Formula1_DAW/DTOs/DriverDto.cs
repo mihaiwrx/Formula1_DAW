@@ -7,7 +7,7 @@ namespace Formula1_DAW.DTOs
 {
     public class DriverDto
     {
-        public int IdDriver { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Nationality { get; set; }

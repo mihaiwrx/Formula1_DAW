@@ -7,7 +7,7 @@ namespace Formula1_DAW.Models
 {
     public class Track
     {
-        public int IdTrack { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Length { get; set; }
         public int Capacity { get; set; }

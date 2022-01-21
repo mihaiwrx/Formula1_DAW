@@ -7,7 +7,7 @@ namespace Formula1_DAW.DTOs
 {
     public class TeamPrincipalDto
     {
-        public int IdTeamPrincipal { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }

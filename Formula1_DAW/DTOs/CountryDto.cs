@@ -7,7 +7,7 @@ namespace Formula1_DAW.DTOs
 {
     public class CountryDto
     {
-        public int IdCountry { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Continent { get; set; }
     }
