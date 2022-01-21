@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Formula1_DAW.Context
 {
-    public class Context: DbContext
+    public class ContextDAW: DbContext
     {
         public DbSet<Country> Countries { get; set; }
         public DbSet<Driver> Drivers { get; set; }
@@ -57,10 +57,11 @@ namespace Formula1_DAW.Context
             });
         }
 
-        public Context() { }
+        public ContextDAW() { }
 
-        public Context(DbContextOptions<Context> options) : base(options)
+        public ContextDAW(DbContextOptions<ContextDAW> options) : base(options)
         {
+
         }
     }
 }
