@@ -3,14 +3,16 @@ using Formula1_DAW.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Formula1_DAW.Migrations
 {
     [DbContext(typeof(ContextDAW))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20220201170421_SponsorManyToMany")]
+    partial class SponsorManyToMany
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
